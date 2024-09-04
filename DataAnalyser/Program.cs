@@ -11,7 +11,7 @@ namespace DataAnalyser
         static void Main(string[] args)
         {
             // initialize and instantiate variables and objects
-            List<int> numbers = new List<int> { 0, 2, 3, 4, 5, 6, 7, 8, 9, 100 };
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 100 };
 
             MinMaxSummary minmax = new MinMaxSummary();
             AverageSummary average = new AverageSummary();
