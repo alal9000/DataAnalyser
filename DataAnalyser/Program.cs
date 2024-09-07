@@ -11,7 +11,7 @@ namespace DataAnalyser
         static void Main(string[] args)
         {
             // initialize and instantiate variables and objects
-            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 100 };
+            List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             MinMaxSummary minmax = new MinMaxSummary();
             AverageSummary average = new AverageSummary();
@@ -23,7 +23,7 @@ namespace DataAnalyser
             dataAnalyser.Summarise();
 
             // add three numbers to the dataAnalyser
-            dataAnalyser.AddNumber(0);
+            dataAnalyser.AddNumber(11);
             dataAnalyser.AddNumber(12);
             dataAnalyser.AddNumber(13);
 
